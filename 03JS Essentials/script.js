@@ -39,3 +39,48 @@ console.log("That's awesome");
 // {
 //     console.log("Null value");
 // }
+
+// function calc(x,y)
+// {
+//     return x+y;
+// }
+// var res = calc(4,5);
+// console.log(res);
+
+// let 4 = 2;
+// let res = x + 4;
+// console.log(res);
+
+
+//Fahrenheit to celcius converter
+// function tempConv(tempFahr){
+//     return tempCelcius = (tempFahr-32)*5/9;
+// }
+// var res = tempConv(100);
+// console.log(res);
+
+//User role access
+
+// function getUserRole(name, Role){
+//     switch(Role){
+//         case "admin":
+//             return `${name} is admin with all access`
+//             // break;
+//         case "subadmin":
+//             return `${name} is subadmin with access to create & delete user`
+//             // break;
+//         case "testprep":
+//             return `${name} is testprep with access to create & delete user`
+//             // break;
+//         case "user":
+//             return `${name} is user with limited access to content`
+//             // break;
+//         default:
+//             return `${name} is trial user`
+//             // break;
+//     }
+// }
+
+// console.log(getUserRole("Hemanth", "user"));
+// var getRole = getUserRole("Sammy","admin");
+// console.log(getRole);
